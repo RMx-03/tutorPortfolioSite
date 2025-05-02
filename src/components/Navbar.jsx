@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-red-950 hover:text-red- transition-colors"
+              className="text-red-700 hover:text-red-900 transition-colors"
             >
               {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
             </button>

@@ -6,16 +6,16 @@ import multiply from '../assets/multiply.png'
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen bg-sage-300">
+    <section id="home" className="relative min-h-screen bg-violet-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-80px)]">
           {/* Left Content */}
           <div className="max-w-xl">
-            <p className="text-sage-800 text-3xl mb-4">Tutor Smarter</p>
-            <h1 className="text-5xl md:text-6xl font-bold text-neutral-900 mb-6">
+            <p className="text-sage-100 text-3xl mb-4">Tutor Smarter</p>
+            <h1 className="text-5xl md:text-6xl font-bold text-neutral-100 mb-6">
               Unlock Your Potential
             </h1>
-            <p className="text-lg text-neutral-600 mb-8">
+            <p className="text-lg text-neutral-300 mb-8">
               We provide personalized tutoring services to help students excel academically 
               and achieve their goals with confidence and ease.
             </p>
@@ -77,7 +77,7 @@ const Hero = () => {
               {/* Rotating Line */}
               <div className="absolute inset-0">
                 <div className="absolute top-[25%] left-[25%] w-[50%] h-[50%] 
-                  border-2 border-dashed border-sage-400 rounded-full animate-spin-slow">
+                  border-2 border-dashed border-purple-900 rounded-full animate-spin-slow">
                 </div>
               </div>
             </div>
@@ -86,8 +86,8 @@ const Hero = () => {
       </div>
 
       {/* Background Decorative Elements */}      
-      <div className="absolute top-20 right-20 w-32 h-32 rounded-full outline outline-8 outline-stone-500 opacity-50"></div>
-      <div className="absolute bottom-20 left-20 w-16 h-16 rounded-full outline outline-8 outline-stone-500 opacity-90"></div>
+      <div className="absolute top-20 right-20 w-32 h-32 rounded-full outline outline-8 outline-lime-600 opacity-100"></div>
+      <div className="absolute bottom-20 left-20 w-16 h-16 rounded-full outline outline-8 outline-yellow-500 opacity-90"></div>
       
     </section>
   );
